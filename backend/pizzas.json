@@ -1,0 +1,60 @@
+{
+    "pizzas": 
+    [
+        {
+            "id": 1,
+            "name": "Classic Pizza",
+            "ingredients": [ "tomato sauce", "garlic", "oregano", "olive oil", "mozzarella", "mushrooms", "olives", "bacon" ],
+            "price": 40,
+            "allergens": []
+        },
+
+        {
+            "id": 2,
+            "name": "Double Pepperoni",
+            "ingredients": [ "tomato sauce", "garlic", "mozzarella", "double pepperoni"],
+            "price": 40,
+            "allergens": []
+        },
+
+        {
+            "id": 3,
+            "name": "Hell Fire",
+            "ingredients": [ "tomato sauce", "mozzarella", "parmigiano reggiano", "spicy ventricina" ],
+            "price": 45,
+            "allergens": []
+        },
+
+        {
+            "id": 4,
+            "name": "Queen Marguerite",
+            "ingredients": [ "tomato sauce", "buffalo mozzarella", "basil", "olive oil" ],
+            "price": 40,
+            "allergens": []
+        },
+
+        {
+            "id": 5,
+            "name": "Five O'Cheese",
+            "ingredients": [ "tomato sauce", "fior di latte", "taleggio", "gorgonzola", "pecorino romano", "pepper" ],
+            "price": 50,
+            "allergens": []
+        },
+
+        {
+            "id": 6,
+            "name": "Threesome",
+            "ingredients": [ "tomato sauce", "spicy ventricina", "prosciuto coto", "mozzarella", "pancetta"],
+            "price": 45,
+            "allergens": []
+        },
+
+        {
+            "id": 7,
+            "name": "Double Trouble",
+            "ingredients": [ "tomato sauce", "mozzarella", "pepperoni", "pancetta", "peeled tomatoes"],
+            "price": 40,
+            "allergens": []
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "allergens":
+    [
+        {
+            "id": 1,
+            "name": "gluten"
+        },
+
+        {
+            "id": 2,
+            "name": "eggs"
+        },
+
+        {
+            "id": 3,
+            "name": "peanuts"
+        },
+
+        {
+            "id": 4,
+            "name": "milk"
+        },
+
+        {
+            "id": 5,
+            "name": "wheat"
+        },
+
+        {
+            "id": 6,
+            "name": "tomatoes"
+        },
+
+        {
+            "id": 7,
+            "name": "almonds"
+        },
+
+        {
+            "id": 8,
+            "name": "soy"
+        },
+
+        {
+            "id": 9,
+            "name": "mustard"
+        },
+
+        {
+            "id": 10,
+            "name": "sesame"
+        }
+    ]
+}
