@@ -8,6 +8,11 @@
     <!-- If your style.css and script.js are in the same folder, use the below syntax. Add 'defer' at the end of the script element. -->
     <script src="/script.js" defer></script>
     <link rel="stylesheet" href="/style.css">
+    <!-- Installing Bootstrap Icons. -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js" defer></script> -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js" defer></script> -->
     <!-- Installing Bootstrap via CDN. Add 'defer' at the end of the script element. -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -19,12 +24,13 @@
 <body>
     <div id="root"></div>
 
-    <!-- Card for pizza list. -->
-    <div class="container">
+    <!-- Classic card for pizza list. -->
+
+    <!-- <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-8">
                 <div class="card">
-                    <img src="/photos/pizza-items/classic-pizza.jpg" class="card-img-top bg-dark" alt="..."
+                    <img src="/photos/pizza-items/01-classic-pizza.jpg" class="card-img-top bg-dark" alt="..."
                         style="object-fit: cover; width: 100%; height: 100%;">
                     <div class="card-body">
                         <h5 class="card-title text-center">Classic Pizza</h5>
@@ -38,55 +44,9 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- <div class="container text-center">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-8">
-                <div class="card text-bg-dark">
-                    <img src="/photos/pizza-items/classic-pizza.jpg" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <small class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</small>
-                        <h5 class="card-title align-bottom justify-center">Card title</h5>
-                    </div>
-                  </div>
-            </div>
-        </div>
     </div> -->
 
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-8">
-                <div class="card position-relative">
-                    <img src="/photos/pizza-items/pizza-classic-2.png" class="card-img" alt="...">
-                    <!-- Start of the offcanvas -->
-                    <a href="#" class="stretched-link" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></a>
-                    <div class="card-image-overlay position-absolute top-0 start-0 w-100 h-100"></div>
-                    <button class="btn btn-lg position-absolute start-50 translate-middle" type="button"></button>
-
-                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
-                        id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                        <div class="offcanvas-header justify-content-center">
-                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Classic Pizza</h5>
-                            <!-- <button type="button" class="btn-close ms-auto p-2" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button> -->
-                        </div>
-
-                        <div class="offcanvas-body">
-                            <div class="card d-flex flex-column justify-content-start">
-                                <h5 class="card-title align-bottom">Ingredients:</h5>
-                                <small class="card-text">tomato sauce, garlic, oregano, olive oil, mozzarella,
-                                    mushrooms, olives, bacon</small>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    
 
 </body>
 
